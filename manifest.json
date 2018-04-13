@@ -1,0 +1,21 @@
+{
+  "name" : "Image Recognition",
+  "version" : "2.0.0",
+  "description" : "Get image tags using image recognition and machine learning.",
+  "background" : { "scripts": ["background.js"] },
+  "author": "Marin Basic",
+  "homepage_url": "https://marin-basic.com",
+  "permissions" : [
+    "contextMenus",
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+   ],
+  "minimum_chrome_version" : "6.0.0.0",
+  "icons" : {
+    "16" : "app-16.png",
+    "48" : "app-48.png",
+    "128" : "app-128.png"
+  },
+  "manifest_version": 2
+}
